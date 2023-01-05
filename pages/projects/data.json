@@ -1,0 +1,102 @@
+[
+    {
+        "name": "WX Store",
+        "slug": "wx-store",
+        "icon": "/images/projects/wxstore.png",
+        "description": "Topup Game Online Provider.",
+        "url": "https: //wxstoreid.com",
+        "image": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+        ],
+        "text": "                        <p>Synn Store adalah aplikasi berbasis web yang menyediakan topup game otomatis dan 24 jam.</p>                        <br />                        <p>[+] Fitur Utama <br /> - Transaksi Otomatis <br /> - Integrasi Smile One ( tanpa pihak ketiga ) <br /> - Integrasi KiosGamer ( tanpa pihak ketiga ) <br /> - Integrasi API Digiflazz <br /> - Integrasi Payment KedaiMutasi <br /> - Integrasi Payment Tripay <br /> - Integrasi Whatsapp Gateway <br /> - Voucher</p>                        <br />                        <p>[+] Fitur Super Admin <br /> - Dashboard ( cek perhitungan transaksi ) <br /> - Manajemen User <br /> - Manajemen Produk <br /> - Manajemen Provider <br /> - Manajemen Payment Gateway <br /> - Setting Web <br /> - Manajemen Transaksi <br /> - Manajemen Voucher</p>                        <br />                        <p>[+] Fitur User/Guest <br /> - Transaksi Produk <br /> - Pembayaran Otomatis <br /> - Proses Order Otomatis <br /> - Transaksi Menggunakan Voucher <br /> - Transaksi Menggunakan Saldo Web</p>"
+    },
+    {
+        "name": "Synn Store",
+        "slug": "synn-store",
+        "icon": "/images/projects/synn.png",
+        "description": "Malaysian Mobile Legends Diamond Provider.",
+        "url": "http: //synnmlbb.store",
+        "image": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+        ],
+        "text": "                        <p>Synn Store adalah aplikasi berbasis web yang menyediakan topup game otomatis dan 24 jam.</p>                        <br />                        <p>[+] Fitur Utama <br /> - Transaksi Otomatis <br /> - Integrasi Smile One ( tanpa pihak ketiga ) <br /> - Integrasi API Gamepoint <br /> - Integrasi Payment Billplz <br /> - Integrasi Payment Gkash <br /> - Integrasi Whatsapp Gateway <br /> - Voucher</p>                        <br />                        <p>[+] Fitur Super Admin <br /> - Dashboard ( cek perhitungan transaksi ) <br /> - Manajemen User <br /> - Manajemen Produk <br /> - Manajemen Provider <br /> - Manajemen Payment Gateway <br /> - Setting Web <br /> - Manajemen Transaksi <br /> - Manajemen Voucher</p>                        <br />                        <p>[+] Fitur User/Guest <br /> - Transaksi Produk <br /> - Pembayaran Otomatis <br /> - Proses Order Otomatis <br /> - Transaksi Menggunakan Voucher <br /> - Transaksi Menggunakan Saldo Web</p>"
+    },
+    {
+        "name": "Sipadu",
+        "slug": "sipadu",
+        "icon": "/images/projects/sipadu.png",
+        "description": "Sistem Pelayanan Terpadu Web Based.",
+        "url": "http: //itsnaufal.my.id",
+        "image": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+        ],
+        "text": "<p>Sipadu adalah Aplikasi web yang dibuat sebagai sarana pengaduan layanan masyarakat seperti infrastruktur dan fasilitas umum, ataupun permasalahan yang dihadapi masyarakat kelurahan Mengger</p><br><p>[+] Fitur Utama<br>- Membuat dan memantau laporan secara online<br>- Melihat detail laporan<br>- Melihat informasi desa<br>- Memiliki 3 Role ( Superadmin, Petugas, User )</p><br><p>[+] Fitur Superadmin<br>- Memiliki semua fitur</p><br><p>[+] Fitur Petugas<br>- Melihat dan approval laporan</p><br><p>[+] Fitur User<br>- Membuat laporan<br>- Melihat informasi desa<br>- Mengirim feedback laporan</p>"
+    },
+    {
+        "name": "Lapak Gusjeng",
+        "slug": "lapak-gusjeng",
+        "icon": "/images/projects/lapak_gusjeng.png",
+        "description": "Marketplace Web Based.",
+        "url": "http: //lapakgusjeng.com",
+        "image": [
+            1,
+            2,
+            3
+        ],
+        "text": "<p>Lapak Gusjeng adalah aplikasi marketplace berbasis web yang membantu memudahkan promosi lingkungan</p><br /><p>[+] Fitur Utama<br>- Melihat semua produk<br>- Melihat detail produk<br>- Order melalui WhatsApp penjual</p><br /><p>[+] Fitur Admin<br>- Manajemen Produk<br>- Pengaturan Website ( FAQ, About, Layout )</p>"
+    },
+    {
+        "name": "FiqBuy",
+        "slug": "fiqbuy",
+        "icon": "/images/projects/fiqbuy.png",
+        "description": "Mobile Legends Store Front End.",
+        "url": "http: //mifstorage.com",
+        "image": [
+            1,
+            2,
+            3,
+            4
+        ],
+        "text": "<p>Sebuah template untuk web top up game</p>"
+    },
+    {
+        "name": "SIM Cakep",
+        "slug": "sim-cakep",
+        "icon": "/images/projects/simcakep.png",
+        "description": "Simple Money Management.",
+        "url": "http: //mifstorage.com",
+        "image": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+        ],
+        "text": "<p>Simcakep adalah Aplikasi perhitungan pendapatan dan pengeluaran sederhana dilengkapi dengan data laporan</p><br><p>[+] Fitur Utama<br>- Membuat dan memonitor pendapatan dan pengeluaran<br>- Melihat laporan <br>- Pendapatan dan pengeluaran berbeda setiap user<br>- Dashboard monitor laporan</p><br><p>[+] Fitur Superadmin<br>- Memiliki semua fitur<br>- Manajemen user</p><br><p>[+} Fitur User<br>- Membuat laporan pendapatan dan pengeluaran<br>- Menambah kategori laporan</p>"
+    },
+    {
+        "name": "Other",
+        "slug": "other",
+        "icon": "/images/projects/github.svg",
+        "description": "Other Simple Application For Study and 13+ projects developed through the company",
+        "url": "http: //mifstorage.com",
+        "image": []
+    }
+]
