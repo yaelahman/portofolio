@@ -59,9 +59,9 @@ export default function ProjectAtHome() {
                 ))}
             </ol>
             <Link href='/projects'>
-                <a className='group mt-6 inline-flex w-full items-center justify-center gap-2 rounded-full bg-white py-2 px-3 text-sm font-semibold text-gray-900 shadow outline-offset-2 transition hover:bg-gray-50 active:bg-gray-100 active:text-gray-900/60 active:transition-none dark:bg-gray-700 dark:text-gray-300 dark:hover:bg-gray-700 dark:hover:text-gray-50 dark:active:bg-gray-700/50 dark:active:text-gray-50/70'>
+                <div className='group mt-6 inline-flex w-full items-center justify-center gap-2 rounded-full bg-white py-2 px-3 text-sm font-semibold text-gray-900 shadow outline-offset-2 transition hover:bg-gray-50 active:bg-gray-100 active:text-gray-900/60 active:transition-none dark:bg-gray-700 dark:text-gray-300 dark:hover:bg-gray-700 dark:hover:text-gray-50 dark:active:bg-gray-700/50 dark:active:text-gray-50/70'>
                     View more
-                </a>
+                </div>
             </Link>
         </div>
     );

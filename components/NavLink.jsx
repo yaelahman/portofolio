@@ -9,9 +9,9 @@ export default function NavLink({ href, value, children }) {
     return (
         <li>
             <Link href={href}>
-                <a className={`inline-flex px-3 py-2 text-sm font-medium ${condition1} dark:${condition2} lg:px-4`}>
+                <div className={`inline-flex px-3 py-2 text-sm font-medium ${condition1} dark:${condition2} lg:px-4`}>
                     {value || children}
-                </a>
+                </div>
             </Link>
         </li>
     );

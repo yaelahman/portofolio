@@ -26,7 +26,7 @@ function NavLink({ href, value, children }) {
     return (
         <li>
             <Link href={href}>
-                <a className={styles.textMuted}>{value || children}</a>
+                <div className={styles.textMuted}>{value || children}</div>
             </Link>
         </li>
     );

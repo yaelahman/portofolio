@@ -7,7 +7,7 @@ export default function Navbar() {
     return (
         <div className='flex items-center justify-center px-4 md:justify-between'>
             <Link href='/'>
-                <a className='hidden cursor-pointer sm:block'>
+                <div className='hidden cursor-pointer sm:block'>
                     <Image
                         className='h-8 w-8 rounded-full'
                         width='32'
@@ -15,7 +15,7 @@ export default function Navbar() {
                         src='/favicon/logo.png'
                         alt='Yaelahman'
                     />
-                </a>
+                </div>
             </Link>
             <ul className='flex items-center rounded-full bg-white shadow dark:bg-gray-800'>
                 <NavLink href='/' value='Home' />

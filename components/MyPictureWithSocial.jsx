@@ -27,7 +27,7 @@ export default function MyPictureWithSocial() {
             >
                 {socials.map(({ url, icon: Icon }, i) => (
                     <Link href={url} key={i}>
-                        <a
+                        <div
                             className={clsx(
                                 styles.flexCenter,
                                 'h-8 w-8 rounded-full bg-gray-100 dark:bg-gray-800'
@@ -37,7 +37,7 @@ export default function MyPictureWithSocial() {
                                 stroke={1}
                                 className='h-5 w-5'
                             />
-                        </a>
+                        </div>
                     </Link>
                 ))}
             </div>
