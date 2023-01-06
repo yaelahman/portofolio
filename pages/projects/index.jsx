@@ -38,7 +38,7 @@ export default function Projects() {
                     </div>
                     <ol className='mt-6 grid grid-cols-2 rounded-2xl bg-gray-100 p-6 dark:bg-gray-800/50'>
                         {projects.map((project, i) => (
-                            <Link href={`/projects/${project.slug}`}>
+                            <Link href={`/projects/${project.slug}`} key={i}>
                                 <li className='btn py-2 relative hover:bg-blue-500/[0.05] rounded px-2 ease-in hover:translate-y-1 transition-all cursor-pointer flex gap-4' key={i}>
                                     <div className='relative my-1 flex h-10 w-10 flex-none items-center justify-center rounded-full shadow-md shadow-gray-800/5 ring-1 ring-gray-900/5 dark:border dark:border-gray-700/50 dark:bg-gray-800 dark:ring-0'>
                                         <Image

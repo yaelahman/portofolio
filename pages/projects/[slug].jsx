@@ -48,9 +48,10 @@ export default function ProjectDetailPage({ slug, project }) {
                             <p className="text-gray-500 dark:text-gray-400 mt-5 text-xl mb-3">Image</p>
                             <Carousel slideInterval={5000}>
                                 {/* eslint-disable-next-line @next/next/no-img-element */}
-                                {project.image.map(row => {
+                                {project.image.map((row, index) => {
                                     return (
-                                        <img
+                                        <Image
+                                            key={index}
                                             alt="..."
                                             src={`http://localhost:3000/assets/${project.slug}/${row}.png`}
                                         />
@@ -87,6 +88,6 @@ export async function getStaticPaths() {
     const paths = Array.from(tags).map((tag) => ({ params: { slug: tag } }));
     return {
         paths: paths,
-        fallback: true // false or 'blocking'
+        fallback: false // false or 'blocking'
     };
 }
