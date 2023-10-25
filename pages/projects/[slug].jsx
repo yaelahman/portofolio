@@ -53,7 +53,7 @@ export default function ProjectDetailPage({ slug, project }) {
                                         <Image
                                             key={index}
                                             alt="..."
-                                            src={`http://localhost:3000/assets/${project.slug}/${row}.png`}
+                                            src={`https://manzcode.com/assets/${project.slug}/${row}.png`}
                                         />
                                     )
                                 })}
