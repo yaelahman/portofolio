@@ -43,23 +43,42 @@ export default function ProjectDetailPage({ slug, project }) {
                         <p className="text-gray-500 dark:text-gray-400 mt-5 text-xl mb-3">Description</p>
                         <div dangerouslySetInnerHTML={{ __html: project.text }}></div>
                     </div>
-                    <div>
-                        <div className="h-56 sm:h-64 xl:h-80 2xl:h-96">
+                    <div className='mb-10'>
+                        <p className="text-gray-500 dark:text-gray-400 mt-5 text-xl mb-3">Image</p>
+
+                        <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-2 gap-5 ">
+                            {project.image.map((row, index) => {
+                                return (
+                                    <div className="h-full" key={index}>
+                                        <a href={`https://manzcode.com/assets/${project.slug}/${row}.webp`} className='' target='_blank'>
+                                            <img
+                                                className="transition-all duration-200 hover:scale-[1.05] rounded-lg border border-gray-600"
+
+                                                alt="..."
+                                                src={`https://manzcode.com/assets/${project.slug}/${row}.webp`}
+                                            />
+                                        </a>
+                                    </div>
+                                )
+                            })}
+                        </div>
+                    </div>
+                    {/* <div className="h-56 sm:h-64 xl:h-80 2xl:h-96">
                             <p className="text-gray-500 dark:text-gray-400 mt-5 text-xl mb-3">Image</p>
                             <Carousel slideInterval={5000}>
-                                {/* eslint-disable-next-line @next/next/no-img-element */}
                                 {project.image.map((row, index) => {
                                     return (
                                         <Image
                                             key={index}
+                                            width={"100"}
+                                            height={"100"}
                                             alt="..."
                                             src={`https://manzcode.com/assets/${project.slug}/${row}.png`}
                                         />
                                     )
                                 })}
                             </Carousel>
-                        </div>
-                    </div>
+                        </div> */}
                 </Container>
             </div>
         </>

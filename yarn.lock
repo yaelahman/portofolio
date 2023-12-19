@@ -234,15 +234,10 @@
   dependencies:
     glob "7.1.7"
 
-"@next/swc-linux-x64-gnu@13.1.2-canary.1":
+"@next/swc-win32-x64-msvc@13.1.2-canary.1":
   version "13.1.2-canary.1"
-  resolved "https://registry.npmjs.org/@next/swc-linux-x64-gnu/-/swc-linux-x64-gnu-13.1.2-canary.1.tgz"
-  integrity sha512-kfaUYIm2kVKZN5hEyO+SQ1AjFJeqRii2YG64/Zh8rq00ooICMjuQDePcYK/2sB3jCWPQ9nmbnl2ZRsCw5ePzmQ==
-
-"@next/swc-linux-x64-musl@13.1.2-canary.1":
-  version "13.1.2-canary.1"
-  resolved "https://registry.npmjs.org/@next/swc-linux-x64-musl/-/swc-linux-x64-musl-13.1.2-canary.1.tgz"
-  integrity sha512-h+KP2/PLEugZrdL1Krak0MNIHoRa2H2yvFBeZ7WLWQmGgswUBybPnQIucmLE0QvuM8dBlurrnO1/eBlW0kJxOQ==
+  resolved "https://registry.npmjs.org/@next/swc-win32-x64-msvc/-/swc-win32-x64-msvc-13.1.2-canary.1.tgz"
+  integrity sha512-7q1n7vmCzFnwBNj1wjAZXX6GzHzFKEnd2Ch/6Z7D8sxAwUBJqC66zeNLm4FSBlOK8zIS5oNtPCliHP3F2O85tA==
 
 "@nodelib/fs.scandir@2.1.5":
   version "2.1.5"
