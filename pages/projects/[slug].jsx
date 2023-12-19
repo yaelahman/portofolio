@@ -50,7 +50,7 @@ export default function ProjectDetailPage({ slug, project }) {
                             {project.image.map((row, index) => {
                                 return (
                                     <div className="h-full" key={index}>
-                                        <a href={`https://manzcode.com/assets/${project.slug}/${row}.webp`} className='' target='_blank'>
+                                        <a href={`https://manzcode.com/assets/${project.slug}/${row}.webp`} className='' rel="noreferrer" target='_blank'>
                                             <img
                                                 className="transition-all duration-200 hover:scale-[1.05] rounded-lg border border-gray-600"
 
